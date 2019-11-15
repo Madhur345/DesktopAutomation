@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 76.281 sec <<< FAILURE! - in TestSuite
+successfulLogin(scripts.InteliLogin)  Time elapsed: 37.552 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Element cannot be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'IN-MADHURVK-1', ip: '129.221.62.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.winium.WiniumDriver
+Capabilities {app: C:/Program Files (x86)/Inte..., args: , debugConnectToRunningApp: false, innerPort: 9998, javascriptEnabled: true, keyboardSimulator: 1, launchDelay: 0, platform: ANY, platformName: ANY}
+Session ID: AwesomeSession
+*** Element info: {Using=name, value=Inte}
+	at scripts.InteliLogin.successfulLogin(InteliLogin.java:18)
+

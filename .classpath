@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/extentreports-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MadhurVK/Downloads/extentreports/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
