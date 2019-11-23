@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 14 16:39:56 IST 2019</td>
+<td>Started on:</td><td>Mon Nov 18 13:54:00 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>98 seconds (98228 ms)</td>
+<tr><td>Total time:</td><td>45 seconds (45040 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,14 +76,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='scripts.InteliLogin.successfulLogin()'><b>successfulLogin</b><br>Test class: scripts.InteliLogin</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Operation timed out. (Exception from HRESULT: 0x80131505) (WARNING: The server did not provide any stacktrace information)
+<td><div><pre>org.openqa.selenium.UnsupportedCommandException: &apos;link text&apos; is not valid or implemented searching strategy. (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
-System info: host: &apos;IN-MADHURVK-1&apos;, ip: &apos;129.221.62.54&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+System info: host: &apos;IN-MADHURVK-1&apos;, ip: &apos;192.168.43.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: org.openqa.selenium.winium.WiniumDriver
 Capabilities {app: C:/Program Files (x86)/Inte..., args: , debugConnectToRunningApp: false, innerPort: 9998, javascriptEnabled: true, keyboardSimulator: 1, launchDelay: 0, platform: ANY, platformName: ANY}
 Session ID: AwesomeSession
-*** Element info: {Using=name, value=Inte}
+*** Element info: {Using=link text, value=Home}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -93,19 +93,19 @@ Session ID: AwesomeSession
 	at org.openqa.selenium.winium.WiniumDriverCommandExecutor.execute(WiniumDriverCommandExecutor.java:78)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:448)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at scripts.InteliLogin.successfulLogin(InteliLogin.java:18)
+	at scripts.InteliLogin.successfulLogin(InteliLogin.java:20)
 ... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1503660218", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1503660218'><pre>org.openqa.selenium.WebDriverException: Operation timed out. (Exception from HRESULT: 0x80131505) (WARNING: The server did not provide any stacktrace information)
+<div class='stack-trace' id='stack-trace1503660218'><pre>org.openqa.selenium.UnsupportedCommandException: &apos;link text&apos; is not valid or implemented searching strategy. (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
-System info: host: &apos;IN-MADHURVK-1&apos;, ip: &apos;129.221.62.54&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+System info: host: &apos;IN-MADHURVK-1&apos;, ip: &apos;192.168.43.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: org.openqa.selenium.winium.WiniumDriver
 Capabilities {app: C:/Program Files (x86)/Inte..., args: , debugConnectToRunningApp: false, innerPort: 9998, javascriptEnabled: true, keyboardSimulator: 1, launchDelay: 0, platform: ANY, platformName: ANY}
 Session ID: AwesomeSession
-*** Element info: {Using=name, value=Inte}
+*** Element info: {Using=link text, value=Home}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -119,10 +119,10 @@ Session ID: AwesomeSession
 	at org.openqa.selenium.winium.WiniumDriverCommandExecutor.execute(WiniumDriverCommandExecutor.java:78)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:448)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at scripts.InteliLogin.successfulLogin(InteliLogin.java:18)
+	at scripts.InteliLogin.successfulLogin(InteliLogin.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -149,7 +149,7 @@ Session ID: AwesomeSession
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>60</td>
+<td>3</td>
 <td>scripts.InteliLogin@2b2948e2</td></tr>
 </table><p>
 </body>

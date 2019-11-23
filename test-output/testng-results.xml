@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="98228" started-at="2019-11-14T11:09:56Z" finished-at="2019-11-14T11:11:34Z">
+  <suite name="Suite" duration-ms="45040" started-at="2019-11-18T08:24:00Z" finished-at="2019-11-18T08:24:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="98228" started-at="2019-11-14T11:09:56Z" finished-at="2019-11-14T11:11:34Z">
+    <test name="Test" duration-ms="45040" started-at="2019-11-18T08:24:00Z" finished-at="2019-11-18T08:24:45Z">
       <class name="scripts.InteliLogin">
-        <test-method status="PASS" signature="setExtentAndStartDriver()[pri:0, instance:scripts.InteliLogin@2b2948e2]" name="setExtentAndStartDriver" is-config="true" duration-ms="12765" started-at="2019-11-14T16:39:56Z" finished-at="2019-11-14T16:40:09Z">
+        <test-method status="PASS" signature="setExtentAndStartDriver()[pri:0, instance:scripts.InteliLogin@2b2948e2]" name="setExtentAndStartDriver" is-config="true" duration-ms="12452" started-at="2019-11-18T13:54:00Z" finished-at="2019-11-18T13:54:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentAndStartDriver -->
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.InteliLogin@2b2948e2]" name="openApplication" is-config="true" duration-ms="23298" started-at="2019-11-14T16:40:09Z" finished-at="2019-11-14T16:40:32Z">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.InteliLogin@2b2948e2]" name="openApplication" is-config="true" duration-ms="20304" started-at="2019-11-18T13:54:12Z" finished-at="2019-11-18T13:54:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="FAIL" signature="successfulLogin()[pri:0, instance:scripts.InteliLogin@2b2948e2]" name="successfulLogin" duration-ms="60897" started-at="2019-11-14T16:40:32Z" finished-at="2019-11-14T16:41:33Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="successfulLogin()[pri:0, instance:scripts.InteliLogin@2b2948e2]" name="successfulLogin" duration-ms="3068" started-at="2019-11-18T13:54:32Z" finished-at="2019-11-18T13:54:35Z">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
             <message>
-              <![CDATA[Operation timed out. (Exception from HRESULT: 0x80131505) (WARNING: The server did not provide any stacktrace information)
+              <![CDATA['link text' is not valid or implemented searching strategy. (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'IN-MADHURVK-1', ip: '129.221.62.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'IN-MADHURVK-1', ip: '192.168.43.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.winium.WiniumDriver
 Capabilities {app: C:/Program Files (x86)/Inte..., args: , debugConnectToRunningApp: false, innerPort: 9998, javascriptEnabled: true, keyboardSimulator: 1, launchDelay: 0, platform: ANY, platformName: ANY}
 Session ID: AwesomeSession
-*** Element info: {Using=name, value=Inte}]]>
+*** Element info: {Using=link text, value=Home}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Operation timed out. (Exception from HRESULT: 0x80131505) (WARNING: The server did not provide any stacktrace information)
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: 'link text' is not valid or implemented searching strategy. (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'IN-MADHURVK-1', ip: '129.221.62.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'IN-MADHURVK-1', ip: '192.168.43.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.winium.WiniumDriver
 Capabilities {app: C:/Program Files (x86)/Inte..., args: , debugConnectToRunningApp: false, innerPort: 9998, javascriptEnabled: true, keyboardSimulator: 1, launchDelay: 0, platform: ANY, platformName: ANY}
 Session ID: AwesomeSession
-*** Element info: {Using=name, value=Inte}
+*** Element info: {Using=link text, value=Home}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -49,10 +49,10 @@ Session ID: AwesomeSession
 	at org.openqa.selenium.winium.WiniumDriverCommandExecutor.execute(WiniumDriverCommandExecutor.java:78)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:448)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at scripts.InteliLogin.successfulLogin(InteliLogin.java:18)
+	at scripts.InteliLogin.successfulLogin(InteliLogin.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -80,11 +80,11 @@ Session ID: AwesomeSession
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulLogin -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.InteliLogin@2b2948e2]" name="closeApplication" is-config="true" duration-ms="1193" started-at="2019-11-14T16:41:33Z" finished-at="2019-11-14T16:41:34Z">
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.InteliLogin@2b2948e2]" name="closeApplication" is-config="true" duration-ms="9150" started-at="2019-11-18T13:54:35Z" finished-at="2019-11-18T13:54:45Z">
           <params>
             <param index="0">
               <value>

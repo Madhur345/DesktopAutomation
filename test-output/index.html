@@ -128,14 +128,14 @@
                   <a name="successfulLogin">
                   </a> <!-- successfulLogin -->
                   <span class="method-name">successfulLogin</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Operation timed out. (Exception from HRESULT: 0x80131505) (WARNING: The server did not provide any stacktrace information)
+                  <div class="stack-trace">org.openqa.selenium.UnsupportedCommandException: &apos;link text&apos; is not valid or implemented searching strategy. (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
-System info: host: &apos;IN-MADHURVK-1&apos;, ip: &apos;129.221.62.54&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+System info: host: &apos;IN-MADHURVK-1&apos;, ip: &apos;192.168.43.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: org.openqa.selenium.winium.WiniumDriver
 Capabilities {app: C:/Program Files (x86)/Inte..., args: , debugConnectToRunningApp: false, innerPort: 9998, javascriptEnabled: true, keyboardSimulator: 1, launchDelay: 0, platform: ANY, platformName: ANY}
 Session ID: AwesomeSession
-*** Element info: {Using=name, value=Inte}
+*** Element info: {Using=link text, value=Home}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -145,10 +145,10 @@ Session ID: AwesomeSession
 	at org.openqa.selenium.winium.WiniumDriverCommandExecutor.execute(WiniumDriverCommandExecutor.java:78)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:448)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at scripts.InteliLogin.successfulLogin(InteliLogin.java:18)
+	at scripts.InteliLogin.successfulLogin(InteliLogin.java:20)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -211,12 +211,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'successfulLogin')
 data.setCell(0, 2, 'scripts.InteliLogin')
-data.setCell(0, 3, 60897);
+data.setCell(0, 3, 3068);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -249,17 +249,17 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">openApplication</span>
-                <span class="method-start">12816 ms</span>
+                <span class="method-start">12500 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">successfulLogin</span>
-                <span class="method-start">36114 ms</span>
+                <span class="method-start">32804 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeApplication([TestResult name=successfulLogin status=FAILURE method=InteliLogin.successfulLogin()[pri:0, instance...)</span>
-                <span class="method-start">97029 ms</span>
+                <span class="method-start">35880 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
